@@ -1,0 +1,44 @@
+﻿<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Bomberman</title>
+		<link rel="stylesheet" href="styles/game.css" />
+		<script type="text/javascript" src="scripts/kLib.js"></script>
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+	</head>
+	
+	<body>
+		<div>
+			<canvas id="backgrounds">
+			</canvas>
+			<canvas id="walls">
+			</canvas>
+			<canvas id="animations">
+			</canvas>
+		</div>
+		<table id="screens">
+			<tr id="paused">
+				<td id="message">
+					Paused
+					<div id="extra">click to play</div>
+				</td>
+			</tr>
+			<tr id="bar">
+				<td>
+					<div id="arrow">
+					</div>
+					<div id="pp">
+						►▐▐
+						<span class="instr">click here or press P/Pause to toggle pause</span>
+					</div>
+					<div id="pp2">
+						<span class="instr">press F11 to toggle fullscreen</span>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<script type="text/javascript" src="scripts/game.js"></script>
+	</body>
+</html>
